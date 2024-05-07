@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background: linear-gradient(to right,rgb(191, 67, 5),rgb(18, 18, 182) );
+            
+
+        }
+        .container{
+           
+            display: flex;
+            height: 100vh;
+            justify-content: space-around;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 35vw;
+            border-right: 1px solid white;
+            padding-right: 190px;
+        }
+        input{
+            opacity: 10;
+            color:white;
+            border-radius: 20px;
+            padding:10px;
+            margin: 10px;
+            border:1px solid rgba(255, 255, 255, 0.651);
+            background-color:transparent ;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+            justify-content: center;
+           
+        }
+        p{
+            position: relative;
+            left: 50px;
+            font-size: medium;
+            color: azure;
+            font-family: sans-serif;
+            padding: 0%;
+            margin: 0px;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            width: 30vw;
+        }
+        ::placeholder{
+            color:aliceblue;
+            font-family: sans-serif;
+        }
+        #Regester{
+            background: linear-gradient(to right, transparent,orangered);
+            border: 0px;
+        }
+        li{
+            position: relative;
+            left: 25px;
+            width:150px;
+            padding: 20px;
+            background-color: rgba(6, 6, 92, 0.575);
+            margin: 10px;
+            text-align: center;
+            list-style: none;
+            border-radius: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+        }
+        #a1{
+            background-color: rgba(14, 52, 189, 0.605);
+        }
+        #a2{
+            background-color: rgba(255, 34, 0, 0.799);
+        }
+        #a3{
+            background-color: rgba(0, 195, 255, 0.795);
+        }
+        #a4{
+            background-color: rgba(15, 203, 15, 0.808);
+        }
+        #a5{
+            background-color: rgba(255, 68, 0, 0.795);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="my.php">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" name="" id="" placeholder="mail@example.com">
+                <input type="password" name="" id="" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <input type="submit" value="Regester" id="Regester" placeholder="Register">
+           </form>
+        </div>
+        <div class="right">
+            <p>Sign Up With Your Social Account</p>
+            <ul>
+                <li id="a1"><a href="https://facebook.com" >facebook</a></li>
+                <li id="a2"><a href="https://youtube.com" >Youtube</a></li>
+                <li id="a3"><a href="https://twitter.com" >Twitter</a></li>
+                <li id="a4"><a href="https://whatsapp.com" >WhatsApp</a></li>
+                <li id="a5"><a href="https://google.com" >Google</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
